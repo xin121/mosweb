@@ -61,7 +61,7 @@ $(".beizhu span").text(year);
 //导航
 var setTime;
 $('.sub-li').hover(function() {
-	$(this).addClass('sub-active');
+	$(this).addClass('sub-active').siblings('.sub-li').removeClass('sub-active');
 }, function() {
 	var _this = $(this);
 	setTime = setTimeout(function() {
