@@ -137,8 +137,8 @@ td {
     top: 53px;
 }
 .nav .sub-nav.case-nav{
-	width: 100%;
-	margin-left: 0;
+	width: 160px;
+	margin-left: -8px;
 }
 
 .nav .sub-active .sub-nav {
@@ -1032,28 +1032,36 @@ h3 {
 	overflow: hidden;
 	height: 360px;
 	left: 0;
+	display: table-cell;
+	text-align: center;
+	width: 100%;
 }
 
 .secList {
 	width: 280px;
 	height: 360px;
-	float: left;
 	text-align: center;
 	position: relative;
 	overflow: hidden;
+	margin: 0 auto;
+	display: inline-block;
+	margin-left: -5px;
+	
 }
-
+.secList:first-child{
+	margin-left: 0px;
+}
 .tab-cell {
-	margin-top: 120px;
+	margin-top: 110px;
 	transition: all .5s;
 	-moz-transition: all .5s;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
 }
 
-.secList.active .tab-cell {
+/*.secList.active .tab-cell {
 	margin-top: 120px;
-}
+}*/
 
 .tab-cell p {
 	margin-top: 25px;
