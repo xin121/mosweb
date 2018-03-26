@@ -39,7 +39,7 @@ td {
 }
 
 .nav {
-	margin-left: 300px;
+	margin-left: 340px;
 }
 
 .nav ul {
@@ -692,7 +692,7 @@ td {
 
 .mt-77 {
 	margin-left: 77px;
-	margin-top: 4px;
+	margin-top: 20px;
 }
 
 .footer ul li.text-center span {
@@ -854,6 +854,8 @@ h3 {
 	position: relative;
 	margin-top: 20px;
 	text-align: center;
+	font-size: 0;
+	letter-spacing: -4px;
 }
 
 .minImg a {
@@ -864,7 +866,6 @@ h3 {
 	display: inline-block;
 	text-align: center;
 	margin-right: 6px;
-	/*float: left;*/
 }
 
 .minImg a img {
@@ -981,10 +982,14 @@ h3 {
 .pt-75 {
 	padding-top: 73px;
 }
+.funBox{
+	font-size: 0;
+	letter-spacing: -4px;
+}
 .funBox a{
 	display: inline-block;
 	text-align: center;
-	margin-left: 75px;
+	margin-left: 80px;
 	cursor: default;
 }
 .funBox a:first-child{
@@ -995,13 +1000,44 @@ h3 {
 	font-size: 16px;
 	color: #595959;
 	margin-top: 30px;
+	letter-spacing: 0;
 }
 .caseBanner {
 	background: none;
 	height: 412px;
-	/*background: url(../img/case/plan_bg.png)no-repeat;
+	
 	width: 100%;
-	min-width: 1200px;*/
+	min-width: 1200px;
+}
+.openBanner{
+	background: url(../img/banner.jpg) center 0 no-repeat;
+}
+.regBg{
+	background: url(../img/reg/banner.jpg) center 0 no-repeat;
+}
+.helpBg{
+	background: url(../img/reg/banner.jpg) center 0 no-repeat;
+}
+.cardBg{
+	background: url(../img/case/card/banner.jpg) center 0 no-repeat;
+}
+.largeBg{
+	background: url(../img/case/large/banner.jpg) center 0 no-repeat;
+}
+.locatBg{
+	background: url(../img/case/locat/banner.jpg) center 0 no-repeat;
+}
+.nfcBg{
+	background: url(../img/case/nfc/banner.jpg) center 0 no-repeat;
+}
+.posBg{
+	background: url(../img/case/pos/banner.jpg) center 0 no-repeat;
+}
+.talkbackBg{
+	background: url(../img/case/talkback/banner.jpg) center 0 no-repeat;
+}
+.translateBg{
+	background: url(../img/case/translate/banner.jpg) center 0 no-repeat;
 }
 .caseBanner .bgBanner{
 	height: 412px;
@@ -1035,6 +1071,8 @@ h3 {
 	display: table-cell;
 	text-align: center;
 	width: 100%;
+	font-size: 0;
+	letter-spacing: -4px;
 }
 
 .secList {
@@ -1045,11 +1083,7 @@ h3 {
 	overflow: hidden;
 	margin: 0 auto;
 	display: inline-block;
-	margin-left: -5px;
 	
-}
-.secList:first-child{
-	margin-left: 0px;
 }
 .tab-cell {
 	margin-top: 110px;
@@ -1078,6 +1112,7 @@ h3 {
 	-moz-transition: all .5s;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
+	
 }
 .secList.active .sec-bg{
 	transform: scale(1.2);
@@ -1237,4 +1272,172 @@ h3 {
 }
 .text-center{
 	text-align: center;
+}
+
+/*关于我们*/
+.reg-text{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.reg-text p{
+	color: #666;
+	font-size: 16px;
+	line-height: 32px;
+}
+.reg-title{
+	font-size: 24px;
+	color: #1a1a1a;
+	text-align: center;
+	position: relative;
+}
+.line-bom{
+	width: 58px;
+	height: 2px;
+	background: #127FCC;
+	margin: 12px auto;
+}
+
+.reg{
+	color: #fff;
+	text-align: center;
+	font-size: 32px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.reg em{
+	display: inline-block;
+	height: 1px;
+	width: 60px;
+	background: #fff;
+	margin: 0 20px 0 20px;
+	vertical-align: text-top;
+    margin-top: 23px;
+}
+.time-event .Left,.time-event .rightSide {
+	width: 50%;
+}
+.reg-event{
+	padding-bottom: 100px;
+}
+.time-event .rightSide .Left{
+	width: 100%;
+}
+.eveList{
+	margin-right: -10px;
+	width: 100%;
+	text-align: right;
+}
+.eveList img{
+	margin-right: 100px;
+}
+.time-event{
+	position: relative;
+	height: 760px;
+	margin-top: 68px;
+}
+.shaft{
+	position: absolute;
+	height: 100%;
+	width: 2px;
+	background: #127FCC;
+	left: 49.911%;
+	top: 28px;
+}
+.time{
+	color: #127FCC;
+	font-size: 22px;
+	font-weight: bold;
+}
+.eve-brf{
+	color: #666;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.event{
+	text-align: right;
+	display: inline-block;
+	vertical-align: middle;
+}
+.eveTag{
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 40px;
+	z-index: 99;
+	font-size: 0;
+}
+.eveTag span{
+	position: relative;
+	display: inline-block;
+	width: 62px;
+	height: 2px;
+	background: #127FCC;
+	margin-right: 15px;
+}
+
+.eveTag span:before{
+	position: absolute;
+	content: '';
+	width: 6px;
+	height: 6px;
+	background: #127FCC;
+	border-radius: 100%;
+	left: -6px;
+	top: -2px;
+}
+.eveTag em{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background: #fff;
+	display: inline-block;
+	border: 2px solid #127FCC;
+	position: absolute;
+	top: -8px;
+	right: 0;
+}
+.eveTag em:after{
+	position: absolute;
+	content: '';
+	width: 8px;
+	height: 8px;
+	background: #127FCC;
+	border-radius: 100%;
+	top: 4px;
+    left: 4px;
+}
+.mt-113{
+	margin-top: 113px;
+}
+.mt-60{
+	margin-top: 60px;
+}
+.rightSide .eveTag span:after{
+	position: absolute;
+	content: '';
+	width: 6px;
+	height: 6px;
+	background: #127FCC;
+	border-radius: 100%;
+	right: -6px;
+	top: -2px;
+}
+.rightSide .eveTag em{
+	left: -10px;
+}
+.rightSide .eveList{
+	text-align: left;
+}
+.rightSide .eveTag{
+	margin-left: 0;
+}
+.rightSide .event{
+	margin-left: 40px;
+	text-align: left;
+}
+.mt-85{
+	margin-top: 85px;
+}
+.mt-185{
+	margin-top: 185px;
 }
