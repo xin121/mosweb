@@ -104,10 +104,10 @@
 		<div class="intBanner" style="background: #415b96;">
 			<!--<img class="bgBanner" src="../img/internet/banne1.png" />-->
 			<div class="warp clearfix">
-				<div class="banText">
+				<div class="banText iotHov">
 					<h3>NB-IoT模组</h3>
 					<p>全球领先的窄带物联网无线通信，符合3GPP标准。其具有体积小、功耗低、传输距离远、抗干扰能力强等特点，是新一代物联网传输的上佳之选。使用该模块，可以快速接入网络，灵活实现产品设计。</p>
-					<a class="buy-btn" style="color: #415b96;" href="https://item.taobao.com/item.htm?spm=a1z10.1-c-s.w5003-17791524322.5.5b8db0bdrzT0r1&id=564314042714&scene=taobao_shop" target="_blank">立即购买</a>
+					<a class="buy-btn" style="color: #415b96;" >立即购买</a>
 					<a class="data-btn">文档资料</a>
 				</div>
 				<div class="bannerImg">
@@ -214,51 +214,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer mt-85">
-			<div class="warp ">
-				<div class="clearfix">
-					<ul>
-						<li>新手导航</li>
-						<li class="mt-30">
-							<a>注册/认证</a>
-						</li>
-						<li class="mt-17">
-							<a>组件试用</a>
-						</li>
-					</ul>
-					<ul class="ml-138">
-						<li>友情链接</li>
-						<li class="mt-30">
-							<a>注册/认证</a>
-						</li>
-						<li class="mt-17">
-							<a>组件试用</a>
-						</li>
-					</ul>
-					<ul class="ml-138">
-						<li>联系我们</li>
-						<li class="mt-30"><span>联系电话：400-880-8820</span></li>
-						<li class="mt-17"><span>QQ 客服：655661335</span></li>
-						<li class="mt-17"><span>邮箱反馈：gl@zhidoulink.com</span></li>
-						<li class="mt-17"><span>公司地址：浙江省杭州市拱墅区祥园路99号运河广告产业大厦2号楼1002</span></li>
-					</ul>
-					<ul class="mt-77">
-						<li>
-							<img data-original="../img/home/code.png" />
-						</li>
-						<li class="text-center"><span>微信公众号</span></li>
-					</ul>
-				</div>
-
-				<div class="beizhu">
-					<p>Copyright © <span>2017</span> 杭州智豆科技有限公司 版权所有 保留一切权利 | 浙ICP备10201639号</p>
-				</div>
-
-			</div>
+		<div id="footer" class="mt-85">
+			
 		</div>
 		<script type="text/javascript" src="../js/jquery.min-1.12.4.js"></script>
 		<script type="text/javascript" src="../js/jquery.lazyload.min.js"></script>
 		<script type="text/javascript" src="../js/public.js"></script>
+		<script>
+			$('#footer').load('../footer.html');
+		</script>
 	</body>
 
 </html>
