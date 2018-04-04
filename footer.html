@@ -1,5 +1,5 @@
-
 <div class="footer">
+
 	<div class="warp ">
 		<div class="clearfix">
 			<!--<ul>
@@ -41,4 +41,46 @@
 		</div>
 
 	</div>
+
 </div>
+<script>
+	//返回顶部
+	$('.top').hover(function() {
+		$(this).addClass('active');
+	}, function() {
+		$(this).removeClass('active');
+	})
+	$(window).scroll(function() {
+		var scrollTop = $(this).scrollTop();
+		Math.ceil(scrollTop) > 100 ? $(".top").fadeIn(999) : $(".top").fadeOut(500)
+	});
+	$('.top div').click(function() {
+		$("html,body").animate({
+			scrollTop: 0
+		}, 100)
+	})
+	var qqTime;
+	$('.qqbox .msgImg').hover(function() {
+		$(this).addClass('active');
+		$('.qqtext').removeClass('hidden');
+	}, function() {
+
+		setTime = setTimeout(function() {
+			$('.qqtext').addClass('hidden');
+		}, 50);
+
+		$(this).removeClass('active');
+	})
+
+	$('.textList').hover(function() {
+		clearTimeout(setTime);
+		$(this).parents('.qqtext').removeClass('hidden');
+		$(this).addClass('active').siblings().removeClass('active');
+		$('.qqbox .msgImg').addClass('active');
+
+	}, function() {
+		$('.textList').removeClass('active');
+		$('.qqbox .msgImg').removeClass('active');
+		$('.qqtext').addClass('hidden');
+	})
+</script>

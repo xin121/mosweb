@@ -484,7 +484,7 @@ td {
 .product {
 	background: url(../img/home/probg.jpg);
 	height: 711px;
-	padding-bottom: 80px;
+	padding-bottom: 70px;
 	width: 100%;
 	margin-top: 100px;
 	min-width: 1200px;
@@ -554,8 +554,8 @@ td {
 }
 
 .bdList {
-	padding-left: 40px;
-	padding-right: 56px;
+	/*padding-left: 40px;*/
+	/*padding-right: 56px;*/
 	padding-top: 5px;
 }
 
@@ -571,6 +571,7 @@ td {
 	border-left: 3px solid #fff;
 	padding-left: 8px;
 	margin: 0;
+	margin-left: 40px;
 }
 
 .bdText p {
@@ -579,8 +580,27 @@ td {
 	line-height: 26px;
 	margin: 0;
 	margin-top: 20px;
+	padding-right: 56px;
+	padding-left: 40px;
 }
-
+.sence{
+	width: 780px;
+	font-size: 0;
+	letter-spacing: -4px;
+}
+.sence-box{
+	width: 140px;
+	display: inline-block;
+	margin-left: 90px;
+	text-align: center;
+}
+.bdText span{
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	letter-spacing: 1px;
+	margin-top: 18px;
+}
 .bd {
 	overflow: hidden;
 }
@@ -1651,4 +1671,120 @@ h3 {
 
 .mt-185 {
 	margin-top: 185px;
+}
+.side-bom{
+	position: fixed;
+	right: 30px;
+	bottom: 0;
+	z-index: 9999;
+	height: 162px;
+}
+.top {
+	margin-top: -5px;
+}
+.top{
+	cursor: pointer;
+	right: 0;
+}
+.qqbox .msgImg{
+	cursor: pointer;
+}
+.qqbox{
+	position: absolute;
+	right: 0;
+}
+.qqbox .qqtext{
+	position: absolute;
+	width: 220px;
+	height: 175px;
+	right: 80px;
+	top: -42px;
+	background: #fff;
+	border-radius: 2px;
+	box-shadow:0px 0px 12px rgba(6,6,6,0.08);
+	overflow: hidden;
+}
+.textList{
+	padding-left: 20px;
+	font-size: 0;
+	letter-spacing: -4px;
+	padding-top: 20px;
+	padding-bottom: 12px;
+	cursor: pointer;
+}
+.textList .qqimg{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 23px;
+}
+.qqcon{
+	display: inline-block;
+	vertical-align: middle;
+}
+.qqcon p{
+	font-size: 14px;
+	letter-spacing: 0px;
+	color: #000000;
+}
+.mt-10{
+	margin-top: 5px;
+}
+.msgImg .img1{
+	background: url(../img/message_1.png)no-repeat;
+	width: 76px;
+	height: 76px;
+}
+.msgImg .img2{
+	background: url(../img/message_2.png)no-repeat;
+	width: 76px;
+	height: 76px;
+	display: none;
+}
+.top{
+	display: none;
+	position: absolute;
+	top: 76px;
+}
+.top .img1{
+	background: url(../img/top_1.png)no-repeat;
+	width: 76px;
+	height: 76px;
+}
+.top .img2{
+	background: url(../img/top_2.png)no-repeat;
+	width: 76px;
+	height: 76px;
+	display: none;
+}
+.top.active .img2,.msgImg.active .img2{
+	display: block;
+}
+.top.active .img1,.msgImg.active .img1{
+	display: none;
+}
+.imgBg{
+	background: url(../img/qq_1.png)no-repeat;
+	width: 23px;
+	height: 26px;
+}
+.telBg{
+	background: url(../img/phone_1.png)no-repeat;
+	width: 22px;
+	height: 22px;
+}
+.textList.active .imgBg{
+	background: url(../img/qq_2.png)no-repeat;
+	width: 23px;
+	height: 26px;
+}
+.textList.active .telBg{
+	background: url(../img/phone_2.png)no-repeat;
+	width: 22px;
+	height: 22px;
+}
+.textList.active p{
+	color: #1172BC;
+}
+.textList.active{
+	background: rgba(247,247,247,1);
 }

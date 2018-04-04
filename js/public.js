@@ -74,3 +74,10 @@ $('.sub-nav').hover(function() {
 	clearTimeout(setTime);
 	$(this).parent('.sub-li').addClass('sub-active');
 })
+
+$('.clickBom').click(function(){
+	 var h = $(document).height()-$(window).height();
+        $("html,body").animate({
+			scrollTop: h
+		}, 100);
+})
