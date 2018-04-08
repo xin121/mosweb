@@ -76,7 +76,7 @@ $('.sub-nav').hover(function() {
 })
 
 $('.clickBom').click(function(){
-	 var h = $(document).height()-$(window).height();
+	 var h = $(document).height()-$(window).height()+100;
         $("html,body").animate({
 			scrollTop: h
 		}, 100);
