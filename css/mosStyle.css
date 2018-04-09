@@ -43,7 +43,7 @@ td {
 }
 
 .nav {
-	margin-left: 360px;
+	margin-left: 412px;
 }
 
 .nav ul {
@@ -68,7 +68,7 @@ td {
 .tag {
 	position: absolute;
 	background: #fff;
-	box-shadow: 0 0 5px 0 #e3e3e3;
+	box-shadow: 0 0 6px 0 #4d4d4d;
 	width: 10px;
 	height: 10px;
 	display: inline-block;
@@ -77,13 +77,13 @@ td {
 	-webkit-transform: rotate(45deg);
 	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
-	top: -5px;
+	top: -4px;
 	left: 46%;
 }
 
 .backTag {
 	position: absolute;
-	height: 6px;
+	height: 10px;
 	background: #fff;
 	width: 100%;
 	z-index: 2;
@@ -142,7 +142,7 @@ td {
 	height: auto;
 	display: none;
 	margin-left: 7%;
-	box-shadow: 0 0 5px 0 #e3e3e3;
+	box-shadow: 0 0 6px 0 #4d4d4d;
 	top: 53px;
 }
 
@@ -580,7 +580,7 @@ td {
 	line-height: 26px;
 	margin: 0;
 	margin-top: 20px;
-	padding-right: 56px;
+	padding-right: 30px;
 	padding-left: 40px;
 }
 .sence{
