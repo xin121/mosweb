@@ -401,38 +401,38 @@
 		<div class="side-bom">
 			<div class="qqbox">
 				<div class="msgImg" />
-					<div class="img1"></div>
-					<div class="img2"></div>
-				</div>
-				<div class="qqtext hidden">
-					<div class="textList">
-						<div class="qqimg">
-							<div class="imgBg"></div>
-						</div>
-						<a  style="display: inline-block;" href="tencent://message/?uin=1787333860&Site=在线QQ&amp;Menu=yes"> 
-							<div class="qqcon" >
-								<p>QQ客服</p>
-								<p class="mt-10">1787333860</p>
-							</div>
-						</a>
-						
-					</div>
-					<div class="textList">
-						<div class="qqimg">
-							<div class="telBg"></div>
-						</div>
-						<div class="qqcon">
-							<p>咨询电话</p>
-							<p class="mt-10" style="margin-top: 8px;">0571-28178475</p>
-							<p class="" style="margin-top: 3px;">15013728288</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="top">
 				<div class="img1"></div>
 				<div class="img2"></div>
 			</div>
+			<div class="qqtext hidden">
+				<div class="textList">
+					<div class="qqimg">
+						<div class="imgBg"></div>
+					</div>
+					<a style="display: inline-block;" href="tencent://message/?uin=1787333860&Site=在线QQ&amp;Menu=yes">
+						<div class="qqcon">
+							<p>QQ客服</p>
+							<p class="mt-10">1787333860</p>
+						</div>
+					</a>
+
+				</div>
+				<div class="textList">
+					<div class="qqimg">
+						<div class="telBg"></div>
+					</div>
+					<div class="qqcon">
+						<p>咨询电话</p>
+						<p class="mt-10" style="margin-top: 8px;">0571-28178475</p>
+						<p class="" style="margin-top: 3px;">15013728288</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top">
+			<div class="img1"></div>
+			<div class="img2"></div>
+		</div>
 		</div>
 		<div id="footer">
 
@@ -443,6 +443,7 @@
 		<script type="text/javascript" src="js/public.js"></script>
 		<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 		<script type="text/javascript">
+			//banner
 			jQuery(".slideBox").slide({
 				mainCell: ".bd ul",
 				autoPlay: true,
@@ -450,8 +451,16 @@
 				delayTime: '500',
 				trigger: 'click'
 			});
+			//加载底部
 			$('#footer').load('footer.html');
-
+			//百度商桥
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?084213a5ee171d30c7ce226350a27079";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
 		</script>
 	</body>
 
