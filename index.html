@@ -16,88 +16,12 @@
 		<link rel="stylesheet" href="css/common.css" />
 		<link rel="stylesheet" href="css/line.css" />
 		<link rel="stylesheet" href="css/mosStyle.css" />
-
+	
 	</head>
 
 	<body>
-		<div class="header">
-			<div class="warp clearfix">
-				<div class="logo Left">
-					<img src="img/logo.png" />
-				</div>
-				<div class="nav Left">
-					<ul class="clearfix">
-						<li class="active">
-							<a>首页</a>
-						</li>
-						<li class="sub-li">
-							<a class="sub-a">物联网模组
-								<i></i>
-							</a>
-							<ul class="sub-nav clearfix  fadeInUpNav">
-								<span class="tag"></span>
-								<span class="backTag"></span>
-								<li>
-									<a href="internet/gps.html">GPRS</a>
-								</li>
-								<li>
-									<a href="internet/4g.html">4G</a>
-								</li>
-								<li>
-									<a href="internet/wifi.html">WiFi</a>
-								</li>
-								<li>
-									<a href="internet/iot.html">NB-IoT</a>
-								</li>
-								<li>
-									<a href="internet/blue.html">蓝牙</a>
-								</li>
-							</ul>
-						</li>
-						<li class="sub-li">
-							<a class="sub-a">
-								硬件方案
-								<i></i>
-							</a>
-							<ul class="sub-nav clearfix  fadeInUpNav case-nav">
-								<span class="tag"></span>
-								<span class="backTag"></span>
-								<li>
-									<a href="case/nfc.html">4G+NFC</a>
-								</li>
-								<li>
-									<a href="case/pos.html">4GPOS机</a>
-								</li>
-								<li>
-									<a href="case/locat.html">定位+通话</a>
-								</li>
-								<li>
-									<a href="case/large.html">大屏+传感器</a>
-								</li>
-								<li>
-									<a href="case/talkback.html">4G对讲机</a>
-								</li>
-								<li>
-									<a href="case/translate.html">智能翻译机</a>
-								</li>
+		<div id="nav" class="header" >
 
-								<li>
-									<a href="case/IdCard.html">身份证识别</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<a href="openPlat.html">MS-Link</a>
-						</li>
-
-						<li>
-							<a href="reg.html">关于我们</a>
-						</li>
-					</ul>
-
-				</div>
-
-			</div>
 		</div>
 
 		<div class="banner container-fluid">
@@ -395,11 +319,11 @@
 			</div>
 			<div class="bg-text">
 				<p>安全、快捷、稳定、有效、可控、开放</p>
-				<a href="openPlat.html">立即使用</a>
+				<a href="mslink.html">立即使用</a>
 			</div>
 		</div>
 		<div class="side-bom">
-			<div class="qqbox">
+			<!--<div class="qqbox">
 				<div class="msgImg" />
 				<div class="img1"></div>
 				<div class="img2"></div>
@@ -428,7 +352,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>-->
 		<div class="top">
 			<div class="img1"></div>
 			<div class="img2"></div>
@@ -452,7 +376,9 @@
 				trigger: 'click'
 			});
 			//加载底部
-			$('#footer').load('footer.html');
+			$('#footer').load('fragments/footer.html');
+			$('#nav').load('fragments/nav.html');
+			
 			//百度商桥
 			var _hmt = _hmt || [];
 			(function() {
@@ -461,6 +387,7 @@
 				var s = document.getElementsByTagName("script")[0];
 				s.parentNode.insertBefore(hm, s);
 			})();
+			
 		</script>
 	</body>
 

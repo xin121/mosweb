@@ -9,7 +9,7 @@
     	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     	<meta name="description" content="魔石云提供基于最新的物联网技术设计的物联网解决方案、工业级物联网解决方案，助力智能产品制造，提供全球云服务接入，开发快，质量稳定" />
 		<meta name="keywords" content="开发平台,物联网开发平台云平台,开发者平台,saas平台,快速开发平台,平台开发,云服务平台,saas服务,saas云平台,paas平台,工业云平台,云服务,教育云平台,数据中心,云应用平台,智慧云平台,云管理平台,智能农业物联网系统,物联网系统" />
-		<title>开放平台-魔石云智联网服务平台</title>
+		<title>MS-Link-魔石云智联网服务平台</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
 		<link rel="stylesheet" href="css/animate.css" />
 		<link rel="stylesheet" href="css/common.css" />
@@ -17,89 +17,8 @@
 	</head>
 
 	<body style="background: #F5F5F7;">
-		<div class="header" style="background: rgba(0,0,0,0.3);">
-			<div class="warp clearfix">
-				<div class="logo Left">
-					<img data-original="img/logo.png" />
-				</div>
-				<div class="nav Left">
-					<ul class="clearfix">
-						<li>
-							<a href="index.html">首页</a>
-						</li>
-						<li class="sub-li">
-							<a class="sub-a">物联网模组
-								<i></i>
-							</a>
-							<ul class="sub-nav clearfix fadeInUpNav">
-								<span class="tag" ></span>
-								<span class="backTag"></span>
-								<li>
-									<a href="internet/gps.html">GPS</a>
-								</li>
-								<li>
-									<a href="internet/4g.html">4G</a>
-								</li>
-								<li>
-									<a href="internet/wifi.html">WiFi</a>
-								</li>
-								<li>
-									<a href="internet/iot.html">NB-IOT</a>
-								</li>
-								<li>
-									<a href="internet/blue.html">蓝牙</a>
-								</li>
-							</ul>
-						</li>
-						<li class="sub-li">
-							<a class="sub-a">
-								硬件方案
-								<i></i>
-							</a>
-							<ul class="sub-nav clearfix  fadeInUpNav case-nav" >
-								<span class="tag" ></span>
-								<span class="backTag"></span>
-								<li>
-									<a href="case/nfc.html">4G+NFC</a>
-								</li>
-								<li>
-									<a href="case/pos.html">4GPOS机</a>
-								</li>
-								<li>
-									<a href="case/locat.html">定位+通话</a>
-								</li>
-								<li>
-									<a href="case/large.html">大屏+传感器</a>
-								</li>
-								<li>
-									<a href="case/talkback.html">4G对讲机</a>
-								</li>
-								<li>
-									<a href="case/translate.html">智能翻译机</a>
-								</li>
-								
-								<li>
-									<a href="case/IdCard.html">身份证识别</a>
-								</li>
-							</ul>
-						</li>
-						<li class="active">
-							<a>MS-Link</a>
-						</li>
-						<!--<li>
-							<a href="help.html">帮助与支持</a>
-						</li>-->
-						<li>
-							<a href="reg.html">关于我们</a>
-						</li>
-					</ul>
-
-				</div>
-				<!--<div class="Right login">
-					<a>登录</a><em>|</em>
-					<a>注册</a>
-				</div>-->
-			</div>
+		<div id="nav" class="header" style="background: rgba(0,0,0,0.3);">
+			
 		</div>
 		<div class="intBanner caseBanner openBanner">
 			<!--<img  class="bgBanner"  src="img/banner.jpg" />-->
@@ -189,7 +108,8 @@
 		<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
 		<script type="text/javascript" src="js/public.js"></script>
 		<script>
-			$('#footer').load('footer.html');
+			$('#footer').load('fragments/footer.html');
+			$('#nav').load('fragments/nav.html');
 		</script>
 	</body>
 

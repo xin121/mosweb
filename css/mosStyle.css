@@ -175,7 +175,9 @@ td {
 .nav ul li.active.sub-li .sub-nav li a {
 	color: #333;
 }
-
+.nav ul .sub-li.active .sub-nav a:hover{
+	color: #1172BC;
+}
 .nav ul li.active.sub-li .sub-nav li a:hover {
 	color: rgba(255, 255, 255.0.6);
 }
@@ -1029,7 +1031,7 @@ h3 {
 	position: relative;
 	display: inline-block;
 	text-align: center;
-	margin-right: 6px;
+	margin-right: 10px;
 }
 
 .minImg a img {
@@ -1084,23 +1086,26 @@ h3 {
 }
 
 .caseBox {
-	width: 940px;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 76px;
 	text-align: center;
+	
 }
 
 .caseBox .Left {
-	margin-right: 20px;
+	/*margin-right: 20px;*/
 }
 
 .caseBox .leftImg {
 	border: 1px solid #D9D9D9;
-	width: 300px;
-	height: 200px;
+	width: 340px;
+	height: 226px;
 	line-height: 200px;
 	text-align: center;
 	overflow: hidden;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 .caseBox .leftImg a {
@@ -1126,8 +1131,9 @@ h3 {
 	display: block;
 	text-align: center;
 	margin-top: 20px;
-	font-size: 14px;
+	font-size: 16px;
 	color: #000;
+	cursor: default;
 }
 
 .caseBox a:hover {
@@ -1160,7 +1166,9 @@ h3 {
 	margin-left: 80px;
 	cursor: default;
 }
-
+.funBox.storyFun a{
+	margin-left: 0;
+}
 .funBox a:first-child {
 	margin-left: 0;
 }
@@ -1219,7 +1227,18 @@ h3 {
 .translateBg {
 	background: url(../img/case/translate/banner.jpg) center 0 no-repeat;
 }
-
+.storyBg{
+	background: url(../img/case/story/banner.jpg) center 0 no-repeat;
+}
+.stopBg{
+	background: url(../img/case/stop/banner.jpg) center 0 no-repeat;
+}
+.lactionBg{
+	background: url(../img/case/laction/banner.jpg) center 0 no-repeat;
+}
+.braceletBg{
+	background: url(../img/case/bracelet/banner.jpg) center 0 no-repeat;
+}
 .caseBanner .bgBanner {
 	height: 412px;
 }
@@ -1675,7 +1694,7 @@ h3 {
 .side-bom{
 	position: fixed;
 	right: 30px;
-	bottom: 0;
+	bottom: 80px;
 	z-index: 9999;
 	height: 162px;
 }
@@ -1787,4 +1806,30 @@ h3 {
 }
 .textList.active{
 	background: rgba(247,247,247,1);
+}
+.caseBox span.rel{
+	display: inline-block;
+	vertical-align: top;
+}
+.w100{
+	width: 100%;
+}
+.mr153{
+	margin-right: 100px;
+}
+.caseBox .rel .leftImg{
+	width: 452px;
+	height: 302px;
+	display: inline-block;
+	margin-right: 0;
+	margin-left: 0;
+}
+.caseBox .rel a{
+	width: 452px;
+	color: #666;
+	line-height: 26px;
+	text-align: left;
+	font-size: 16px;
+	margin-top: 15px;
+	cursor: default;
 }
